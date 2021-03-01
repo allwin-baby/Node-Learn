@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>paste http://127.0.0.1:3000/form?name=allwin&age=12</h1>
+    <form action="/submit">
+    <label for="name">NAME</label>
+    <input type="text" name="name" id="name" value=<%= qs.name%>>
+    <label for="age">AGE</label>
+    <input type="number" name = "age" id="agee" value=<%= qs.age%>>
+    <input type="submit">
+    </form>
+</body>
+</html>

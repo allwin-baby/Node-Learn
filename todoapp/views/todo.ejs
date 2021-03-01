@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+</head>
+<body>
+    <form action="/" method="POST" id="form">
+    <label for="item">item</label>
+    <input type="text" name="item">
+    <input type="submit" value="submit">
+    </form>
+    <ul>
+       <% for(var i=0;i < listy.length ; i++){ %>
+          <l1><%= listy[i].item  %></l1>  
+         <% } %>
+
+    </ul>
+    <ul>
+        <% listy.forEach(function(item){%>
+            <li><%= JSON.stringify(item) %></li>
+            <% }) %>
+ 
+     </ul>
+
+
+</body>
+</html>

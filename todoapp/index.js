@@ -1,0 +1,7 @@
+var express = require('express')
+var app = express()
+app.use('/assests',express.static('assets'))
+app.set('view engine','ejs')
+var todoController = require('./todoController')
+todoController(app)
+app.listen(3000)

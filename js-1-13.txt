@@ -1,0 +1,41 @@
+-----NPM------
+np npm is default with node.js 
+npm is cmd utillty for installing packages from repo
+
+>npm install express
+>npm uninstall express
+
+----PACKAGES.JSON-----
+--1.NEW PROJECT
+To keep track of all packages need for our application
+To keep track of all dependancies
+To pass code to other programmers,what they neeed to install 
+>npm init
+
+2.while installing a package
+>npm install express --save  //add as dependancy to package.json file
+
+3.Code from another programmer with a """package.json""" file in it
+to install all dependacy at once
+>npm install
+
+-------------------------------------------------------------
+Installing packages globally and locally
+
+>npm install nodemon  --install with in project folder
+>npm install -g nodemon  --install globally ,can use for all projects without installing
+-------------------------
+installing ejs and express globally and calling in local didn't work
+!!!also ejs install without --save also failed to run!!
+
+
+**Call back is given to functions which are asynchronous**
+
+<%-  include('./partials/partial.ejs') %>                   <-----------------------------------------ERROR IN OLD VIDEO                     <% include   partials/partial.ejs %>
+
+-----------------------------------
+	
+
+
+
+ 
